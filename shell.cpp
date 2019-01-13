@@ -169,7 +169,7 @@ int main()
             printf("Polecenia:\n");
             printf("help - pomoc\n");
             printf("exit - wyjscie\n");
-            printf("exit -u - wyjscie zakonczonie niepowodzeniem\n");
+            printf("exit -u - wyjscie zakonczone niepowodzeniem\n");
             printf("touch - tworzenie pliku\n");
             printf("rm - usuwanie pliku\n");
             printf("echo - wypisuje ciag znakow podany jako argument\n");
@@ -180,8 +180,7 @@ int main()
             printf("cd .. - przejscie do katalogu nadrzednego\n");
             printf("cd - przejscie katalogu glownego\n");
             printf("Mozna podac takze lokalizacje wzgledna lub bezwzgledna\n\n");
-            printf("Przy tworzeniu kodu kozystałem z dokumentacji dostepnej online\noraz z pomocy na forum 4programmers.net\n");
-            printf("####################################\n\n");
+            
         }
  
         else if((strncmp(polecenie, "echo",4))==0)
